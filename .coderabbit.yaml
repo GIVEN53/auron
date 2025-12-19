@@ -1,0 +1,14 @@
+language: 'en-US'
+tone_instructions: "" # max 250
+
+reviews:
+  profile: "assertive"
+  high_level_summary: false
+  estimate_code_review_effort: false
+  assess_linked_issues: false
+  related_issues: false
+  suggested_labels: false
+  suggested_reviewers: false
+  poem: false
+  auto_review:
+    enabled: true
