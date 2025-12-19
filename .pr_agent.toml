@@ -2,6 +2,7 @@
 response_language = "en-US"
 use_wiki_settings_file = false
 use_repo_settings_file = true
+disable_auto_feedback = false
 
 [github_app]
 handle_push_trigger = true
@@ -11,13 +12,20 @@ pr_commands = [
     "/improve",
 ]
 
-[pr_description]
+[pr_description] # /describe
 final_update_message = false
 
-[pr_code_suggestions]
-wiki_page_accepted_suggestions = false
+[pr_reviewer] # /review
+require_estimate_effort_to_review = false
+enable_review_labels_security = false
+enable_review_labels_effort = false
 
-[pr_custom_prompt] # /custom_prompt #
+[pr_code_suggestions] # /improve
+commitable_code_suggestions = true
+wiki_page_accepted_suggestions = false
+focus_only_on_problems = false
+
+[pr_custom_prompt]
 prompt = """\
 
 """
