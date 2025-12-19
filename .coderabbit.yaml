@@ -1,0 +1,10 @@
+language: 'en-US'
+tone_instructions: "" # max 250
+
+reviews:
+  profile: "assertive"
+  poem: false
+  assess_linked_issues: false
+  related_issues: false
+  suggested_labels: false
+  suggested_reviewers: false

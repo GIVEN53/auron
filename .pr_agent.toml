@@ -1,0 +1,23 @@
+[config]
+response_language = "en-US"
+use_wiki_settings_file = false
+use_repo_settings_file = true
+
+[github_app]
+handle_push_trigger = true
+pr_commands = [
+    "/describe",
+    "/review",
+    "/improve",
+]
+
+[pr_description]
+final_update_message = false
+
+[pr_code_suggestions]
+wiki_page_accepted_suggestions = false
+
+[pr_custom_prompt] # /custom_prompt #
+prompt = """\
+
+"""
