@@ -1,0 +1,16 @@
+config:
+  validation: true
+  warningsAsErrors: false
+
+complexity:
+  ComplexCondition:
+    allowedConditions: 3
+  LongParameterList:
+    allowedFunctionParameters: 4
+    allowedConstructorParameters: 10
+  LongMethod:
+    allowedLines: 40
+  NestedBlockDepth:
+    allowedDepth: 2
+  TooManyFunctions:
+    allowedFunctionsPerClass: 20
