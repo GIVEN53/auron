@@ -1,6 +1,5 @@
 config:
   validation: true
-  warningsAsErrors: false
 
 complexity:
   ComplexCondition:
