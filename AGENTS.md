@@ -50,7 +50,7 @@ class MyTest {
 
 - Use PR title prefix to indicate the type of PR (`feat: `|`fix: `|`chore: `).
     - **feat:** new feature under `src/main/kotlin`.
-    - **fix:** bug fix, non-breaking change under `src/main/kotlin` or `src/test/kotlin` only changed.
+    - **fix:** bug fix, a non-breaking change affecting `src/main/kotlin` and/or `src/test/kotlin`.
     - **chore:** other changes
 - Generate a summary as a change log entry targeting external consumers of this codebase in PR description.
 - Run `./gradlew check` locally to ensure all tests pass before pushing your changes.
