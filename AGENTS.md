@@ -14,10 +14,10 @@ This document provides guidelines for AI agents working on the auron repository.
 
 ## Testing
 
-- Add unit test for new features under `src/test/kotlin`.
+- Add unit tests for new features under `src/test/kotlin`.
 - Name test files using `*Test.kt` convention and mirror production package paths.
 - Use BDD syntax with given-when-then structured test.
-- Use `kotest` framework, and `mockk` for mocking.
+- Use `kotest` assertions, and `mockk` for mocking.
 - Backtick test names (e.g., fun `my test`()) for readability.
 - Test your changes by running `./gradlew test`.
 
