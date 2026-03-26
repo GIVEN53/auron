@@ -52,6 +52,7 @@ class MyTest {
     - **feat:** new feature under `src/main/kotlin`.
     - **fix:** bug fix, a non-breaking change affecting `src/main/kotlin` and/or `src/test/kotlin`.
     - **chore:** other changes
-- Generate a summary as a change log entry targeting external consumers of this codebase in PR description.
 - Run `./gradlew check` locally to ensure all tests pass before pushing your changes.
+- Generate a summary as a change log entry targeting external consumers of this codebase in PR description.
 - Include test evidence in PR descriptions: Gradle task output, screenshots (if applicable).
+- Update PR description whenever additional changes are pushed.
